@@ -2,9 +2,6 @@
     .btn{
         border-radius: 8px;
             border-color: #8AAAE5;
-            
-            
-           
             border-radius: 8px;
             background:#FFF4E7;
     }
