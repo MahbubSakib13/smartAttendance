@@ -24,30 +24,41 @@
         }
 
         header {
-            background: #8AAAE5;
+            color:#E3242B ;
+            /* background: #; */
         }
 
         #logo {
             height: 160px;
             width: 160px;
         }
+        #logo2{
+            height: 160px;
+            width: 170px;
+        }
 
         .main {
-            background:  #E7E8D1;
+            background:#F5FEFD;
         }
 
         .attendancesheet {
             margin: auto;
         }
+        .btndiv{
+            display: flex;
+            justify-content: space-around;
+        }
 
         .attendance {
             border-radius: 8px;
             border-color: #8AAAE5;
-            margin-left: 50%;
-            
-           
+            /* margin-left: 50%; */
             border-radius: 8px;
-            background:#FFF4E7;
+            background:#89CFEF;
+            margin-bottom: 20px;
+        }
+        .attendance >a{
+            color: #F5FEFD;
         }
     </style>
 </head>
@@ -55,7 +66,7 @@
 <body>
 
     <div class="container-fluid">
-        <header class=" text-white text-center mb-3 py-3">
+        <header class=" text-center mb-3 py-3">
 
             <div class="row">
                 <div class="col col-lg-2"><img id="logo" src="image/bsfmstu.png" alt=""></div>
@@ -65,7 +76,7 @@
 
                 </div>
                 <div class="col col-lg-2">
-                    <img id="logo" src="image/cse.jpg" alt="">
+                    <img id="logo2" src="image/cse.jpg" alt="">
                 </div>
             </div>
 
@@ -80,8 +91,10 @@
                     ?>
                     <br>
 
+                        <div class="btndiv">
                         <button class="attendance"><a href="addAttendance.php">Attendance</a></button>
-                        <button class="attendance"><a href="">Marks</a></button>
+                        <button class="attendance"><a href="marks.php">Marks</a></button>
+                        </div>
 
                     
 

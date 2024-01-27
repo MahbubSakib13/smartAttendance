@@ -1,6 +1,9 @@
 <style>
     .head{
-        background-color: #AA96DA;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #F5FEFD;
+        background-color: #89CFEF;
     }
 .main{
     display: flex;
@@ -11,23 +14,29 @@
 .addStudent{
     margin-right: 20px;
     padding-top: 20px;
+    color: #003151;
     height: 90%;
     background-color:#C5FAD5;
     
 }
 .addAttendance{
     padding-left: 20%;
-    background-color: #FFFFD2;
+    background-color: #F5FEFD;
     width: 100%;
     height: 90%;
 }
 .btn{
     border-radius: 8px;
             border-color: #8AAAE5;
-            
-           
             border-radius: 8px;
             background:#FFF4E7;
+}
+
+.footer{
+    padding-left: 15%;
+}
+.footer>a{
+    color:#702963;
 }
 </style>
 
@@ -35,7 +44,7 @@
 
 <div class="head">
 <h1> <center> Adding ATTENDANCE!!</center></h1>
-<button class="attendance btn"><a href="index.php">Home</a></button>
+<!-- <button class="attendance btn"><a href="index.php">Home</a></button> -->
 </div>
 
 <!-- main div -->
@@ -95,6 +104,7 @@ echo '<br>';
         </tr>
     </form>
 </table>
+
 
 
 <?php 
@@ -163,7 +173,10 @@ echo '<br>';
         echo "Attendance added successfully";
 
     }
+
+    
 ?>
+<h3 class="footer"><a href="index.php">Go to Home Page</a></h3>
 <br><br>
 
 
